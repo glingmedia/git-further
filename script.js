@@ -26,7 +26,6 @@ function getRandomNumber() {
  * @param {Number} number number to be put into DOM
  */
 function addNumberToPage(number) {
-    number.
     const div = document.getElementById('results')
     div.append(number + ', ');
 }

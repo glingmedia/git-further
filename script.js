@@ -12,5 +12,9 @@ function getRandomNumber() {
 
 // Helper function 2
 function addNumberToPage(number) {
-    console.log(number);
+    // div is a variable in the line below
+    const div = document.getElementById('results')
+    div.append(number + ', ');
 }
+
+// make small functions. easier!

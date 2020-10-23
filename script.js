@@ -29,18 +29,19 @@ function addNumberToPage(number) {
     number.
     const div = document.getElementById('results')
     div.append(number + ', ');
+}
 
     // temporary
     /** @type {HTMLInputElement} */
 
     //const input = document.getElementById('name')
     //input.value
-}
+    /** @typedef { { name: String, age: Number } } Person A simple person object 
+    */
+
+    // hold mouse over person to see example
+
 
 // make small functions. easier!
 // JSDOC to get intellisense and shows function examples.
 // gives you additional guidance
-
-/**
- * 
- */
